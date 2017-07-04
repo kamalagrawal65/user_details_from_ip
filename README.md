@@ -1,0 +1,1 @@
+Download the binary file from https://www.ip2location.com/developers. "IP2Location DB24 Sample Bin File " bin file is used.
