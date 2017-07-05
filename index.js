@@ -43,6 +43,7 @@ app.post('/background', function(req,res){
 	});
 	
 	keepPromise.then((result) => {
+		//console.log(result);
 		// Connect to mongo and insert
 		MongoClient.connect("mongodb://localhost:27017/user_details", function(err, db) {
 			if(err) { return console.log(err); }
